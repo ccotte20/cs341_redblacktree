@@ -11,6 +11,7 @@ BinaryTree::BinaryTree()
 
 BinaryTree::~BinaryTree()
 {
+	// Ryan: Always check to make sure this isn't the nullptr first.
 	delete root_;
 }
 

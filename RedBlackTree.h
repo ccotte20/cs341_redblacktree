@@ -9,6 +9,7 @@ class RedBlackTree : public BinaryTree
 {
 	public:
 		RedBlackTree();
+		// Ryan: This should be a virtual destructor.
 		~RedBlackTree();
 		virtual void insert(int data);
 		void printRedNodes(TreeNode * root); // inorder traversal

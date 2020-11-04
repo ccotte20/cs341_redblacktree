@@ -11,6 +11,7 @@ TreeNode::TreeNode(int data) : Node(data), parent_(nullptr), leftChild_(nullptr)
 
 TreeNode::~TreeNode()
 {
+	// Ryan: We always need to check to make sure these aren't the nullptr first.
 	delete leftChild_;
 	delete rightChild_;
 }
